@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comment-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.name {
+  color: #1e293b;
+  font: 200;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+  width: 120px;
+  height: 20px;
+  border-radius: 8px;
+}
+.comment-image {
+  width: 100px;
+  height: 100px;
+}
+.hr-line {
+  border: 1px solid #cbd2d9;
+  width: 100%;
+  margin-top: 10px;
+}
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  height: 20px;
+  width: 50px;
+  margin-right: 10px;
+}
+.comments {
+  color: #1e293b;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
